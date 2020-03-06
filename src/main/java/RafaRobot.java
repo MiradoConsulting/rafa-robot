@@ -23,7 +23,8 @@ public class RafaRobot extends Robot
 		// Robot main loop
 		while(true) {
 			// Replace the next 4 lines with any behavior you would like
-			ahead(100);
+			ahead(10);
+			turnGunRight(36);
 		}
 	}
 
@@ -32,6 +33,7 @@ public class RafaRobot extends Robot
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
+		fire(3);
 	}
 
 	/**
