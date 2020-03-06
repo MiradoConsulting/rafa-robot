@@ -39,6 +39,7 @@ public class RafaRobot extends Robot
 	 */
 	public void onHitByBullet(HitByBulletEvent e) {
 		// Replace the next line with any behavior you would like
+		turnRight(20);
 	}
 	
 	/**
